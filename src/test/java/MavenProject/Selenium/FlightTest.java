@@ -52,8 +52,8 @@ public class FlightTest
 		loginpage.logout(ConstantVariables.loginpagetitle);
 	}
 	
-	@Test(description="flight book sceanrio 1")
-	public void test1()
+	@Test(description="flight book sceanrio 1 ", enabled=true)
+	public void test2()
 	{
 		LoginPage loginpage = new LoginPage(driver);
 		String title=loginpage.validLogin(ConstantVariables.companyid,ConstantVariables.username, ConstantVariables.password,
