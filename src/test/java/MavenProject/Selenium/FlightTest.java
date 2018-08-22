@@ -52,7 +52,7 @@ public class FlightTest
 		loginpage.logout(ConstantVariables.loginpagetitle);
 	}
 	
-	@Test(description="flight book sceanrio 1 ", enabled=true)
+	@Test(description="flight book sceanrio 1 ", enabled=true, priority=1 	)
 	public void test2()
 	{
 		LoginPage loginpage = new LoginPage(driver);
