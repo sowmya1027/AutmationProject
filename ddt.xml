@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ddt suite">
+	<test verbose="2" name="Default test">
+		<classes>
+			<class name="MavenProject.Selenium.DataDrivernTest">
+				<methods>
+					<exclude name="test1" />
+					<include name="test2" />
+					<exclude name="test3" />
+				</methods>
+			</class>			
+		</classes>
+	</test>
+</suite> 
