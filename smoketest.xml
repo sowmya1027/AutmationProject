@@ -5,9 +5,9 @@
 		<classes>
 			<class name="MavenProject.Selenium.LoginTest">
 				<methods>
-					<exclude name="test1" />
-					<exclude name="test2" />
-					<exclude name="test3" />
+					<include name="test1" />
+					<include name="test2" />
+					<include name="test3" />
 				</methods>
 			</class>
 			
